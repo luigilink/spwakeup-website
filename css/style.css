@@ -1,0 +1,61 @@
+html,
+body,
+header,
+#home {
+    height: 100%;
+}
+
+#home {
+    background: url("../img/background.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-nav-collapse {
+    background-color: #24355C;
+}
+
+.hm-black-strong .full-bg-img, .hm-black-strong .mask {
+    background-color: rgba(0,0,0,.7);
+}
+
+.hr-light {
+    border-top: 1px solid #fff;
+}
+
+.view .full-bg-img, .view .mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.white-text, section .contact {
+    color: #FFF!important;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: .85rem 2.13rem;
+    margin: 6px;
+    border-radius: 2px;
+    border: 0;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    text-transform: uppercase;
+    white-space: normal!important;
+    cursor: pointer;
+}
+.btn-outline-white {
+    border: 2px solid #fff;
+    color: #fff!important;
+    background-color:transparent;
+}
+
+.btn:hover {
+    background-color: #336666;
+}
