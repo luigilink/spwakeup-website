@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="SPWakeUp is a PowerShell script tool to warm up all site collection in your SharePoint OnPremises.">
+    <meta name="description" content="SPSWakeUp is a PowerShell script tool to warm up all site collection in your SharePoint OnPremises.">
     <meta name="keywords" content="SharePoint, WarmUp, WakeUp, PowerShell, Script">
-    <title>SPWakeup</title>
+    <title>SPSWakeup</title>
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap core CSS -->
@@ -20,6 +20,58 @@
     <header>
 
         <!--NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+
+                <!-- Navbar brand -->
+                <a class="navbar-brand" href="#">SPSWakeUp</a>
+
+
+                <!-- Collapse button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <!-- Links -->
+                        <ul class="navbar-nav mr-auto smooth-scroll">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#best-features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#guide">Guide</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#release">Releases</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://github.com/luigilink/spswakeup">View on Github</a>
+                            </li>
+                        </ul>
+                        <!-- Links -->
+    
+                        <!-- Social Icon  -->
+                        <ul class="navbar-nav nav-flex-icons">
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/jean-cyril-drouhin/">
+                                    <i class="fa fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank" href="https://github.com/luigilink">
+                                    <i class="fa fa-github"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Collapsible content -->
+    
+                </div>
+            </nav>
+            <!--/.Navbar-->
 
         <!--Mask-->
         <div id="home" class="view hm-black-strong">
@@ -38,7 +90,7 @@
                             <hr class="hr-light">
     
                             <!-- Description -->
-                            <h4 class="white-text my-4">SPWakeUp is a PowerShell script tool to warm up all site collection in your SharePoint OnPremises.</h4>
+                            <h4 class="white-text my-4">SPSWakeUp wake up all sites collection in SharePoint OnPremises.</h4>
                             <button type="button" class="btn btn-outline-white" onclick="window.location.href='https://github.com/luigilink/spswakeup/releases/download/v2.1.4/Scripts.zip'">Download
                                 <i class="fa fa-download ml-2"></i>
                             </button>
@@ -53,7 +105,194 @@
             <!--/.Mask-->
 
     </header>
+    <!--Main Navigation-->
 
+    <!--Main layout-->
+    <main class="mt-5">
+        <div class="container">
+
+            <!--Section: Best Features-->
+            <section id="best-features" class="text-center">
+
+                <!-- Heading -->
+                <h2 class="mb-4 font-weight-bold">Best Features</h2>
+
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center mb-4">
+
+                    <!--Grid column-->
+                    <div class="col-md-8">
+
+                        <!-- Description -->
+                        <p class="grey-text">SPSWakeUp is a PowerShell script tool to warm up all site collection in your SharePoint environment.
+                            It's compatible with all supported versions for SharePoint. <br>This current version supports only NTLM Authentication.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-code fa-4x blue-text"></i>
+                        <h4 class="my-4 font-weight-bold">PowerShell</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-microchip fa-4x blue-text"></i>
+                        <h4 class="my-4 font-weight-bold">Multi-Threading</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <i class="fa fa-file fa-4x blue-text"></i>
+                        <h4 class="my-4 font-weight-bold">Logging</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                            assumenda deleniti hic.</p>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <hr class="my-5">
+
+                <!-- Heading -->
+                <h2 class="mb-4 font-weight-bold">Other Features</h2>
+
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <ul class="list-group list-group-flush">
+                                <li class="list-group-item">No need to modify ps1 file</li>
+                                <li class="list-group-item">All settings are in input xml file</li>
+                                <li class="list-group-item">All Supported version of SharePoint (2010, 2013 and 2016)</li>
+                                <li class="list-group-item">Automatic Installation in Task Scheduler</li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Central Administration included by default</li>
+                                <li class="list-group-item">All site collection for all web applications</li>
+                                <li class="list-group-item">Use Internet Explorer to download JS, CSS and Pictures files</li>
+                                <li class="list-group-item">Add/Remove urls from warm-up</li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 mb-1">
+                        <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Configure automatically prerequisites</li>
+                                <li class="list-group-item">Disable IE ESC and LoopBackCheck</li>
+                                <li class="list-group-item">Add Web application Urls and HSNC in HOSTS file</li>
+                                <li class="list-group-item">Add Service Account in User Policy</li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+
+            </section>
+            <!--Section: Best Features-->
+
+            <hr class="my-5">
+
+            <!--Section: Guide-->
+            <section id="guide" class="text-center">
+
+                <!-- Heading -->
+                <h2 class="mb-5 font-weight-bold">Guide</h2>
+    
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4">
+
+                        <div class="view overlay hm-white-slight z-depth-1-half">
+                            <img src="img/download.jpg" class="img-fluid" alt="">
+                            <div class="mask"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">1. Download</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                            assumenda deleniti hic.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay hm-white-slight z-depth-1-half">
+                            <img src="img/unzipcopy.jpg" class="img-fluid" alt="">
+                            <div class="mask"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">2. Unzip and Copy</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                            assumenda deleniti hic.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4">
+
+                        <div class="view overlay hm-white-slight z-depth-1-half">
+                            <img src="img/inputxml.jpg" class="img-fluid" alt="">
+                            <div class="mask"></div>
+                        </div>
+
+                        <h4 class="my-4 font-weight-bold">3. Modify input xml</h4>
+                        <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima
+                            assumenda deleniti hic.</p>
+
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+    
+            </section>
+            <!--Section: Examples-->
+
+            <hr class="my-5">
+        </div>
+    </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only unique-color-dark pt-0">
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2018 Copyright:
+                <a href="https://www.spwakeup.com"> SPSWakeUp.com </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
     <!-- SCRIPTS -->
     <!-- JQuery -->
     <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
@@ -61,5 +300,7 @@
     <script type="text/javascript" src="js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- SPSWakeUp custom JavaScript -->
+    <script type="text/javascript" src="js/spswakeup.js"></script>
 </body>
 </html>

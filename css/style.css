@@ -14,11 +14,17 @@ header,
 }
 
 .top-nav-collapse {
-    background-color: #24355C;
+    background-color: #336666;
+    padding: 0;
+    transition: 0.7s ease;
 }
 
 .hm-black-strong .full-bg-img, .hm-black-strong .mask {
     background-color: rgba(0,0,0,.7);
+}
+
+.blue-text {
+    color: #080749!important;
 }
 
 .hr-light {
@@ -58,4 +64,14 @@ header,
 
 .btn:hover {
     background-color: #336666;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: rgba(255,255,255,.6);
+    background-color: rgba(0,0,0,.2);
+    text-align: center;
+    font-size: .9rem;
 }
